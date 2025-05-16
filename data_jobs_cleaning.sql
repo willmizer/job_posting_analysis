@@ -2,7 +2,7 @@ SELECT * FROM job_postings;
 
 -- Dropping unwanted columns 
 ALTER TABLE job_postings 
-	DROP COLUMN last_processed_time,
+    DROP COLUMN last_processed_time,
     DROP COLUMN last_status,
     DROP COLUMN got_summary,
     DROP COLUMN got_ner,
